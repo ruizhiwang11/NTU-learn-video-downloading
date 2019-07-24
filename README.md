@@ -17,6 +17,7 @@
 #### Chrome Webdriver
     Follow the link of tutorial to download google chrome webdriver
     *http://chromedriver.chromium.org/downloads*
+    Copy the driver path into your script
 
 
 ## Usage
@@ -29,10 +30,8 @@
     https://ntulearn.ntu.edu.sg/webapps/blackboard/content/listContent.jsp?course_id=_301259_1&content_id=_1632972_1&mode=reset
 
 
-5. Run the following command in your terminal
-
-shell
-python3 NTU-Learn-video 
-Follow the steps By the scripts by entering your username,password and the link you just copied
+4. Run the following command in your terminal
+    python3 NTU-Learn-video(Please make sure you have copied the driver path into your script before running)
+    Follow the steps By the scripts by entering your username,password and the link you just copied
 **The progress will be shown. It may take quite a long time.**
     
