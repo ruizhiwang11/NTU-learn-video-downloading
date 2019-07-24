@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
+import getpass
 from selenium.webdriver.chrome.options import Options
 import re
 import time
@@ -24,12 +25,12 @@ class MyProgressBar():
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--mute-audio')
-driver = webdriver.Chrome('/home/ruizhi/chromedriver',chrome_options=options) #launch login website with google chrome browser
+driver = webdriver.Chrome('/home/$USER/WHERE/YOUR/CHROME/DRIVER/LOCATE',chrome_options=options) #launch login website with google chrome browser
 driver.get("https://ntulearn.ntu.edu.sg/webapps/login/")
 USERNAME=input("Please Enter Your NTU_learn User Name: ")
 element1 = driver.find_element_by_id("user_id")
 element1.send_keys(USERNAME)
-PASSWORD=input("Please Enter YOur NTU_learn Password: ")
+PASSWORD=getpass.getpass("Please Enter Your NTU_learn Password: ")
 element2=driver.find_element_by_id("password")
 element2.send_keys(PASSWORD)
 driver.find_element_by_id("entry-login").click()

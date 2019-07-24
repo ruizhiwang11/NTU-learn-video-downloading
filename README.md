@@ -1,11 +1,8 @@
 # NTU-learn-video-downloading
 
 
-#A dynamic python script to download lecture recorded videos posted on the NTU learn
+# A dynamic python script to download lecture recorded videos posted on the NTU learn
 
-
-# NTU-Recording-Downloader
-A python command line tool for downloading lecture recordings, with order.
 
 ## Requirements
 
@@ -33,7 +30,8 @@ A python command line tool for downloading lecture recordings, with order.
 
 
 5. Run the following command in your terminal
-```shell
+
+shell
 python3 NTU-Learn-video 
 Follow the steps By the scripts by entering your username,password and the link you just copied
 **The progress will be shown. It may take quite a long time.**
