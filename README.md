@@ -16,7 +16,9 @@
 
 #### Chrome Webdriver
     Follow the link of tutorial to download google chrome webdriver
+
     http://chromedriver.chromium.org/downloads
+    
     Copy the driver path into your script
 
 
